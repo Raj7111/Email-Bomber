@@ -8,7 +8,7 @@ Spam emails to a single email address
 
 Download the tool:
 ```bash
-$ git clone https://github.com/mohinparamasivam/Email-Bomber.git
+$ git clone https://github.com/Raj7111/Email-Bomber
 $ cd Email-Bomber
 ```
 
