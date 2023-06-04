@@ -25,9 +25,9 @@ print('            #                                               #       ')
 print('            #################################################       ')
 print('\n\n')
 
-user = input('Anonymous name: ')
-email = input('\nAttacker Email Address: ')
-passwd = getpass('\nAttacker Email Password: ')
+
+
+
 to = input('\nVictim Email Address: ')
 total = input('\nNumber of emails: ')
 body = input('\nMessage: ')
@@ -62,12 +62,12 @@ try:
     server.quit()
     print('\n Done !!!')
     sys.exit()
-except KeyboardInterrupt:
-    print('[-] Canceled')
-    sys.exit()
-except smtplib.SMTPAuthenticationError:
-    print('[!] The username or password you entered is incorrect')
-    sys.exit()
-except smtplib.SMTPConnectError:
-    print('\n[!] Failed to connect with the SMTP server')
-    sys.exit()
+
+
+
+
+
+
+
+
+
