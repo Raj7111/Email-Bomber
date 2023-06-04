@@ -30,12 +30,12 @@ print '                                                                   '
 
 print '                                           '
 
-print '    '
-email = raw_input('Attacker Gmail Address : ')
-print '             '
-user = raw_input('Anonymous name : ')
-print '      '
-passwd = getpass.getpass('Password: ')
+
+
+
+
+
+
 
 print '   '
 
@@ -70,9 +70,4 @@ try:
         sys.stdout.flush()
     server.quit()
     print '\n Done !!!'
-except KeyboardInterrupt:
-    print '[-] Canceled'
-    sys.exit()
-except smtplib.SMTPAuthenticationError:
-    print '\n[!] The username or password you entered is incorrect.'
-    sys.exit()
+
